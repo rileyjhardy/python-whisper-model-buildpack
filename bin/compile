@@ -2,7 +2,7 @@
 
 echo "-----> Installing python..."
 apt-get update
-apt-get install -y python3 pip
+apt-get install -y python3 python3-pip
 
 echo "-----> Installing python dependencies..."
 pip install torch openai-whisper
